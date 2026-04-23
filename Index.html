@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foo - Fast Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <img class="header__logo-img" src="chef-hat.png" alt="Foo Logo">
+                <span class="header__logo-text">Foo</span>
+            </div>
+            
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Menu</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Shop</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <div class="header__search">
+                    <span class="header__search-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" class="header__search-input" placeholder="Search" aria-label="Search">
+                </div>
+                
+                <div class="header__cart">
+                    <div class="header__cart-icon">
+                        <span class="header__cart-count">2</span>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__title-highlight">Fast</span>
+                        <span class="hero__title-group">
+                            <span>Food</span>
+                            <span>Delivery</span>
+                        </span>
+                    </h1>
+                    <p class="hero__description">
+                        Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium.
+                    </p>
+                    <div class="hero__buttons">
+                        <button class="button button--primary">Order Now</button>
+                        <button class="button button--secondary">
+                            <span class="button__icon">▶</span> Watch Video
+                        </button>
+                    </div>
+                    <div class="rating">
+                        <div class="rating__stars">★★★★★</div>
+                        <div class="rating__info">
+                            <span class="rating__score">5 star rating</span><br>
+                            <span class="rating__reviews">based on 1788 reviews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <img src="photo.png" alt="Food delivery bag" class="hero__image">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
